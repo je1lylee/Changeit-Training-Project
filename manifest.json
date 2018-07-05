@@ -125,5 +125,49 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [],
+				"refer": [
+					"login/login.html"
+				],
+				"priority": 0
+			},
+			"login/login.html": {
+				"resources": [
+					"login/img/头像2.jpg",
+					"login/img/账号.png"
+				],
+				"refer": [
+					"index.html"
+				],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"login/login.js",
+				"js/ejs.js",
+				"login/img/头像1.jpg",
+				"fonts/mui.ttf",
+				"css/mui.css",
+				"login/img/支付宝.png",
+				"login/img/qq (1).png",
+				"css/index.css",
+				"js/common.js",
+				"js/mui.min.js",
+				"login/img/眼睛.png",
+				"js/my.js",
+				"login/img/微信 (1).png",
+				"css/mui.min.css",
+				"CodeDoc.md",
+				"js/mui.js",
+				"login/img/锁.png",
+				"login/login.css",
+				"README.md"
+			]
+		}
 	}
 }

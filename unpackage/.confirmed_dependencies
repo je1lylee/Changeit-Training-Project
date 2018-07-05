@@ -1,0 +1,16 @@
+{
+	"index.html": {
+		"refer": [
+			"login/login.html"
+		]
+	},
+	"login/login.html": {
+		"refer": [
+			"index.html"
+		],
+		"resources": [
+			"login/img/头像2.jpg",
+			"login/img/账号.png"
+		]
+	}
+}
