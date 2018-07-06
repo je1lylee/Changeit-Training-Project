@@ -1,49 +1,69 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Document</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <link rel="stylesheet" type="text/css" href="../css/mui.css"/>
-</head>
-<body>
-    
-    <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript">
-    mui.init()
-    </script>
- <!--以上为script初始化-->
- 
- <div>
- 	<img src="http://img.linxixiangxin.top/zhuce/头像1.jpg" style="width: 200px;height: 200px;" />
- 	
- </div>
- 
-    <div class="app-text">
 
-<span>登录</span> 	<span style="color: #FF9503;">注册</span>    	
-<div>
-	
-	<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;"/>
-	<input class="mui-input-numbox" style="width: 300px ;height: 35px;" placeholder="账号/手机号/邮箱"/>
-	
-</div>
-<div>
-<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-<input class="mui-input-numbox" style="width: 300px; height: 35px;" placeholder="密码"/>
-</div>
-<div>
-<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-<input class="mui-input-numbox" style="width: 300px; height: 35px;" placeholder="重复密码"/>
-</div>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.css" />
+		<!--<link rel="stylesheet" type="text/css"href="login.css" />-->
+	</head>
 
-<div>
-	<button type="submit">注册</button>
-</div>
+	<body>
 
-    </div>
-    
-    
-    
-</body>
+		<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<!--以上为script初始化-->
+		<div>
+			<img src="http://img.linxixiangxin.top/zhuce/头像1.jpg" style="width: 200px;height: 200px;" />
+
+		</div>
+			<span>登录</span> <span style="color: #FF9503;">注册</span>	
+		<!--<div class="app-text">
+
+			<span>登录</span> <span style="color: #FF9503;">注册</span>
+			<div>
+
+				<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;" />
+				 <input type="text" class="mui-input-clear" placeholder="请输入用户名" style="width: 300px ;height: 35px;">
+
+			</div>
+			<div>
+				<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
+				<input class="mui-input-clear" style="width: 300px; height: 35px;" placeholder="密码" type="password"/>
+			</div>
+			<div>
+				<label></label><img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
+				<input class="mui-input-clear" style="width: 300px; height: 35px;" placeholder="重复密码" type="password"/>
+			</div>
+			<div>
+				<button type="submit">注册</button>
+			</div>
+
+		</div>-->
+		<form class="mui-input-group">
+			<div class="mui-input-row">
+				<label>				<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;" /></label>
+				<input type="text" class="mui-input-clear" placeholder="请输入用户名">
+			</div>
+			<div class="mui-input-row">
+				<label>				<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" /></label>
+				<input type="password" class="mui-input-password" placeholder="请输入密码">
+			</div>
+						<div class="mui-input-row">
+				<label>				<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" /></label>
+				<input type="password" class="mui-input-password" placeholder="请再次输入密码">
+			</div>
+			<div class="mui-button-row">
+				<button type="button" class="mui-btn mui-btn-primary" style="width: 70%; background-color: #FF9503; border-color: #FF9503; color: #000000;">注册</button>
+			</div>
+		</form>
+		<div>
+			<span>游客进入</span>
+			<span>已有账号？</span>
+		</div>
+	</body>
+
 </html>
