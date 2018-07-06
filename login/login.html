@@ -5,7 +5,7 @@
 		<meta charset="UTF-8" />
 		<title>Document</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-				<link rel="stylesheet" type="text/css" href="login.css" />
+		<link rel="stylesheet" type="text/css" href="login.css" />
 		<link rel="stylesheet" type="text/css" href="../css/mui.css" />
 	</head>
 
@@ -16,33 +16,43 @@
 		</script>
 		<!--以上为script初始化-->
 		<center>
-		<div id="user_icon" >
-			<img src="http://img.linxixiangxin.top/zhuce/头像1.jpg" style="width: 200px;height: 200px;" />
+			<div id="user_icon">
+				<img src="http://img.linxixiangxin.top/zhuce/头像1.jpg" id="user_img" />
 
-		</div>
+			</div>
 		</center>
-			<span>登录</span> <span style="color: #FF9503;">注册</span>	
-		<div class="app-text">
-			<div>
 
-				<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;" />
-				 <input type="text" class="mui-input-clear" placeholder="请输入用户名" style="width: 300px ;height: 35px;">
+		<form>
+
+			<div id="app_login">
+				<span id="text_login">登录</span> <span id="text_register">注册</span>
+				<p></p>
+				<div>
+					<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;" />
+					<input type="text" class="mui-input-clear" placeholder="账号/手机号/邮箱" style="width: 300px ;height: 35px;">
+
+				</div>
+				
+				<form class="mui-input-group">
+				<div class="mui-input-row">
+					<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
+					<input class="mui-input-password" style="width: 300px; height: 35px;" placeholder="密码" type="password" />
+				</div>
+				
+				<div class="mui-input-row">
+					<label></label><img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
+					<input class="mui-input-password" style="width: 300px; height: 35px;" placeholder="重复密码" type="password" />
+				</div>
+				</form>
+				
+				
+				<div>
+					<button type="submit" id="button_register">注册</button>
+				</div>
 
 			</div>
-			<div>
-				<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-				<input class="mui-input-clear" style="width: 300px; height: 35px;" placeholder="密码" type="password"/>
-			</div>
-			<div>
-				<label></label><img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-				<input class="mui-input-clear" style="width: 300px; height: 35px;" placeholder="重复密码" type="password"/>
-			</div>
-			<div>
-				<button type="submit">注册</button>
-			</div>
 
-		</div>
-		
+		</form>
 		<!--exit-->
 		<!--<form class="mui-input-group" style="width: 75.6%;margin: 0px auto;">
 			<div class="mui-input-row">
@@ -50,15 +60,15 @@
 				<input type="text" class="mui-input-clear" placeholder="请输入用户名" style="right: 1px;">
 			</div>
 			<div class="mui-input-row" ">
-				<label>				<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" /></label>
-				<input type="password" class="mui-input-password" placeholder="请输入密码">
+				<label>				<img src="http://img.linxixiangxin.top/zhuce/锁.png " style="width: 15pt;height: 15pt; " /></label>
+				<input type="password " class="mui-input-password " placeholder="请输入密码 ">
 			</div>
-						<div class="mui-input-row">
-				<label>				<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" /></label>
-				<input type="password" class="mui-input-password" placeholder="请再次输入密码">
+						<div class="mui-input-row ">
+				<label>				<img src="http://img.linxixiangxin.top/zhuce/锁.png " style="width: 15pt;height: 15pt; " /></label>
+				<input type="password " class="mui-input-password " placeholder="请再次输入密码 ">
 			</div>
-			<div class="mui-button-row">
-				<button type="button" class="mui-btn mui-btn-primary" style="width: 70%; background-color: #FF9503; border-color: #FF9503; color: #000000;">注册</button>
+			<div class="mui-button-row ">
+				<button type="button " class="mui-btn mui-btn-primary " style="width: 70%; background-color: #FF9503; border-color: #FF9503; color: #000000; ">注册</button>
 			</div>
 		</form>-->
 		<div>

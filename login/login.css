@@ -1,4 +1,29 @@
 #user_icon
 {
 margin: 0px auto;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+#user_img
+{
+	width: 125px;
+	height: 125px;
+}
+#text_register
+{
+	color: #FF9503;
+}
+#app_login
+{
+	margin: 0px auto;
+	margin-left: 6%;
+	margin-right: 6%;
+
+}
+#button_register
+{
+	
+	width:100%;
+	background-color: #FF9503;
+border-radius:7px;
 }
