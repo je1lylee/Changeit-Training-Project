@@ -131,7 +131,8 @@
 			"index.html": {
 				"resources": [],
 				"refer": [
-					"login/login.html"
+					"login/login.html",
+					"register/register.html"
 				],
 				"priority": 0
 			},
@@ -143,6 +144,13 @@
 				"refer": [
 					"index.html",
 					"login/login.html"
+				],
+				"priority": 0
+			},
+			"register/register.html": {
+				"resources": [],
+				"refer": [
+					"register/register.html"
 				],
 				"priority": 0
 			}

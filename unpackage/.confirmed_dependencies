@@ -1,7 +1,8 @@
 {
 	"index.html": {
 		"refer": [
-			"login/login.html"
+			"login/login.html",
+			"register/register.html"
 		]
 	},
 	"login/login.html": {
@@ -12,6 +13,11 @@
 		"resources": [
 			"login/img/头像2.jpg",
 			"login/img/账号.png"
+		]
+	},
+	"register/register.html": {
+		"refer": [
+			"register/register.html"
 		]
 	}
 }
