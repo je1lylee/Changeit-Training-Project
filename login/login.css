@@ -1,26 +1,4 @@
-.app-user-icon
+#user_icon
 {
-	position: absolute;
-	top: 20px;
-}
-.app-text
-{
-	display: flex;
-}
-.app-text-login
-{
-float: left;
-}
-.app-text-register
-{
-float: left;
-}
-.app-login
-{
-	 position: relative;
-
-}
-#app-login
-{
-	position: relative;
+margin: 0px auto;
 }
