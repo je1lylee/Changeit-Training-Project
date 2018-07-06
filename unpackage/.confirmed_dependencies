@@ -6,7 +6,8 @@
 	},
 	"login/login.html": {
 		"refer": [
-			"index.html"
+			"index.html",
+			"login/login.html"
 		],
 		"resources": [
 			"login/img/头像2.jpg",

@@ -1,29 +1,42 @@
-#user_icon
-{
-margin: 0px auto;
-margin-top: 60px;
-margin-bottom: 60px;
+#user_icon {
+	margin: 0px auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
-#user_img
-{
+
+#user_img {
 	width: 125px;
 	height: 125px;
 }
-#text_register
-{
+
+#text_register {
 	color: #FF9503;
 }
-#app_login
-{
+
+#app_login {
 	margin: 0px auto;
 	margin-left: 6%;
 	margin-right: 6%;
-
 }
-#button_register
-{
-	
-	width:100%;
+
+#button_register {
+	width: 100%;
 	background-color: #FF9503;
-border-radius:7px;
+	border-radius: 7px;
+}
+
+#page_foot {
+	bottom: 30px;
+	width: 100%;
+	position: absolute;
+}
+/*游客登录*/
+#user_visitor {
+	float: left;
+	margin-left: 10px;
+}
+/*已有账号*/
+#user_login {
+	margin-right: 20px;
+	float: right;
 }

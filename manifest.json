@@ -141,7 +141,8 @@
 					"login/img/账号.png"
 				],
 				"refer": [
-					"index.html"
+					"index.html",
+					"login/login.html"
 				],
 				"priority": 0
 			}
