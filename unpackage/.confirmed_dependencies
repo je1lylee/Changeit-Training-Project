@@ -17,7 +17,8 @@
 	},
 	"register/register.html": {
 		"refer": [
-			"register/register.html"
+			"register/register.html",
+			"index.html"
 		]
 	}
 }

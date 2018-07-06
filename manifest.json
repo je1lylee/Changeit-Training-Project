@@ -150,7 +150,8 @@
 			"register/register.html": {
 				"resources": [],
 				"refer": [
-					"register/register.html"
+					"register/register.html",
+					"index.html"
 				],
 				"priority": 0
 			}

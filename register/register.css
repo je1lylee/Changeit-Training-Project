@@ -8,7 +8,9 @@
 	width: 125px;
 	height: 125px;
 }
-
+.backg{
+	background-color: white;
+}
 #text_register {
 	color: #FF9503;
 }
@@ -26,9 +28,10 @@
 }
 
 #page_foot {
-	bottom: 30px;
+	bottom: 20px;
 	width: 100%;
 	position: absolute;
+	float: left;
 }
 /*游客*/
 #user_visitor {

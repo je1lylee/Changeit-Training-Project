@@ -7,14 +7,14 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="register.css" />
 		<link rel="stylesheet" type="text/css" href="../css/mui.css" />
-	</head>
-
-	<body>
-		<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
+				<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+				<script type="text/javascript">
 			mui.init()
 		</script>
-		<!--以上为script初始化-->
+				<!--以上为script初始化-->
+	</head>
+
+	<body >
 		<center>
 			<div id="user_icon">
 				<img src="http://img.linxixiangxin.top/zhuce/头像1.jpg" id="user_img" />
@@ -22,42 +22,36 @@
 			</div>
 		</center>
 
-		<form>
-
-			<div id="app_login">
-				<span id="text_login">登录</span> <span id="text_register"><b>注册</b></span>
-				<p></p>
+		<div id="app_login">
+			<span id="text_login">登录</span> <span id="text_register"><b>注册</b></span>
+			<p></p>
+			<form class="mui-input-group" action="" method="get">
 				<div>
 					<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;" />
-					<input type="text" class="mui-input-clear" placeholder="账号/手机号/邮箱" style="width:90% ;height: 35px;">
-
+					<input type="text" class="mui-input-clear" placeholder="账号/手机号/邮箱" style="width:92% ;height: 35px;">
+				</div>
+				<div class="mui-input-row">
+					<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
+					<input class="mui-input-password" style="width: 92%; height: 35px;" placeholder="密码" type="password" />
 				</div>
 
-				<form class="mui-input-group">
-					<div class="mui-input-row">
-						<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-						<input class="mui-input-password" style="width: 90%; height: 35px;" placeholder="密码" type="password" />
-					</div>
-
-					<div class="mui-input-row">
-						<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-						<input class="mui-input-password" style="width: 90%; height: 35px;" placeholder="重复密码" type="password" />
-					</div>
-				</form>
-
-				<div>
-					<button type="submit" id="button_register">注册</button>
+				<div class="mui-input-row">
+					<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
+					<input class="mui-input-password" style="width: 92%; height: 35px;" placeholder="重复密码" type="password" />
 				</div>
+			</form>
 
+			<div>
+				<button type="submit" id="button_register">注册</button>
 			</div>
 
-		</form>
+		</div>
 
 		<div id="page_foot">
-			
+
 			<div id="user_visitor">游客进入</div>
 			<div id="user_login">已有账号？</div>
-		
+
 		</div>
 	</body>
 
