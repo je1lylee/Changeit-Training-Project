@@ -8,15 +8,17 @@
 	width: 125px;
 	height: 125px;
 }
-.backg{
+
+.backg {
 	background-color: white;
 }
+
 #text_register {
 	color: #080602;
 }
 
 #app_login {
-		color: #FF9503;
+	color: #FF9503;
 	margin: 0px auto;
 	margin-left: 6%;
 	margin-right: 6%;
@@ -34,12 +36,39 @@
 	position: absolute;
 	float: left;
 }
-#forget_ID{
+
+#forget_ID {
 	text-align: center;
-	
-	
 }
-#tips
-{
+
+#tips {
 	text-align: center;
+}
+
+#icon_line {
+	width: 30%;
+	border: 1px solid #A8A4A5;
+}
+
+#shiyu {
+	margin-top: 100px;
+	margin-left: 36%;
+}
+
+#qq_icon {
+	height: 20px;
+	width: 20px;
+	margin: 5px;
+}
+
+#wechat_icon {
+	height: 20px;
+	width: 20px;
+	margin: 5px;
+}
+
+#alipay_icon {
+	height: 20px;
+	width: 20px;
+	margin: 5px;
 }
