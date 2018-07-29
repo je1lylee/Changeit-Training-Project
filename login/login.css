@@ -46,29 +46,30 @@
 }
 
 #icon_line {
-	width: 30%;
+	width: 46%;
 	border: 1px solid #A8A4A5;
 }
 
 #shiyu {
-	margin-top: 100px;
-	margin-left: 36%;
+	margin-top: 40%;
+	margin-left: 35%;
 }
 
 #qq_icon {
-	height: 20px;
-	width: 20px;
+	
+	height: 25px;
+	width: 25px;
 	margin: 5px;
 }
 
 #wechat_icon {
-	height: 20px;
-	width: 20px;
+	height: 25px;
+	width: 25px;
 	margin: 5px;
 }
 
 #alipay_icon {
-	height: 20px;
-	width: 20px;
+	height: 25px;
+	width: 25px;
 	margin: 5px;
 }
