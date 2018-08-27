@@ -1,0 +1,50 @@
+#headbar
+{
+	right: 0px;
+	left: 0px;
+	background-color: #FCB553;
+}
+#headbar_text
+{
+	color: white;
+}
+#nav_bar
+{
+	top: 40%;
+}
+.nav {
+    background: whitesmoke;
+    padding: 10px 0 6px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.nav ul {
+    height: 0px;
+}
+.nav ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav ul li span {
+    display: block;
+    color: #787474;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 22px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: normal;
+}

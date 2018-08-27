@@ -1467,7 +1467,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 }
 
 .mui-bar
-{
+{.mui-bar .mui-title
     position: fixed;
     z-index: 10;
     right: 0;
