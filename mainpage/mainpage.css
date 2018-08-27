@@ -3,6 +3,8 @@
 	right: 0px;
 	left: 0px;
 	background-color: #FCB553;
+position: fixed;
+margin-bottom: 20px;
 }
 #headbar_text
 {
