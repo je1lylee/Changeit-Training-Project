@@ -29,3 +29,7 @@
     <link href="../css/mui.min.css" rel="stylesheet"/>
 </head>
 </code>
+#文件结构定义
+login->登录
+register->注册
+mainpage—>主页
