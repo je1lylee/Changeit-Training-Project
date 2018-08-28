@@ -11,10 +11,10 @@
 		<script type="text/javascript">
 			mui.init()
 		</script>
-		<!--以上为script初始化-->
+		<!--以上为script初始化.-->
 	</head>
 
-	<body>
+	<body style="background-color: white;">
 		<center>
 			<div id="user_icon">
 				<img src="http://img.linxixiangxin.top/zhuce/头像1.jpg" id="user_img" />
@@ -23,30 +23,32 @@
 		</center>
 
 		<div id="app_login">
-			<span id="text_login">登录</span> <span id="text_register"><b>注册</b></span>
+			<a id="text_login" href="/login">登录</a><b> <a id="text_register"href="/">注册</a></b>
 			<p></p>
-			<form class="mui-input-group" action="" method="get">
-				<div>
+			<form class="mui-input-group"  method="post">
+				<div class="backcolor">
 					<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;" />
-					<input type="text" class="mui-input-clear" placeholder="账号/手机号/邮箱" style="width:92% ;height: 35px;">
+					<input type="text" class="mui-input-clear" placeholder="账号/手机号/邮箱" style="width:92% ;height: 35px;" name="name">
 				</div>
 				<p></p>
-				<div>
+				<div class="backcolor">
 					<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-					<input class="mui-input-password" style="width: 92%; height: 35px;" placeholder="密码" type="password" />
+					<input class="mui-input-password" style="width: 92%; height: 35px;" placeholder="密码" type="password" name="password"/>
 				</div>
 				<p></p>
-				<div>
+				<div class="backcolor">
 					<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-						<input class="mui-input-password" style="width: 92%; height: 35px;" placeholder="重复密码" type="password" />
+						<input class="mui-input-password" style="width: 92%; height: 35px;" placeholder="重复密码" type="password" name="password-repeat" />
+				</div>
+				<!--分隔区域-->
+				<p></p>
+				<div>
+				<input type="submit" id="button_register" value="注册"/>
 				</div>
 			</form>
 			<p></p>
 			<p></p>
 			<!--分割-->
-			<div>
-				<button type="submit" id="button_register">注册</button>
-			</div>
 
 		</div>
 

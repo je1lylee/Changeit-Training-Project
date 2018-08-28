@@ -43,3 +43,18 @@
 	margin-right: 20px;
 	float: right;
 }
+#body{
+	background-color: white;
+}
+.backcolor
+{
+	border:1px solid; 
+	/*圆角大小*/
+    border-radius:5px;
+	background-color: #FF9503;
+	/*透明度*/
+	opacity:0.30196078431372547;
+}
+
+
+

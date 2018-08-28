@@ -60,6 +60,13 @@ a
 {
     background: transparent;
 }
+a:link
+{
+	color: black;
+	}
+
+
+
 
 a:active,
 a:hover

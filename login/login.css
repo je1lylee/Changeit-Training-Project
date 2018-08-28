@@ -16,6 +16,30 @@
 #text_register {
 	color: #080602;
 }
+#text_login
+{
+	color: #FF9503;
+}
+
+#id_zone
+{
+	border:2px solid; 
+	/*圆角大小*/
+    border-radius:5px;
+	background-color: #FF9503;
+	/*透明度*/
+	opacity:0.30196078431372547;
+	
+}
+
+#passwd_zone
+{
+	border:2px solid;
+    border-radius:5px;
+	background-color: #FF9503;
+	opacity:0.30196078431372547;
+}
+
 
 #app_login {
 	color: #FF9503;
