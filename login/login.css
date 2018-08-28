@@ -61,12 +61,10 @@
 	float: left;
 }
 
-#forget_ID {
-	text-align: center;
-}
-
-#tips {
-	text-align: center;
+#lost
+{
+	float: right;
+	font-size: 17px;
 }
 
 #icon_line {
@@ -75,8 +73,7 @@
 }
 
 #shiyu {
-	margin-top: 40%;
-	margin-left: 35%;
+margin-bottom: 10%;
 }
 
 #qq_icon {
