@@ -44,10 +44,11 @@
 	margin-right: 6%;
 }
 
-#button_register {
+#button_login {
 	width: 100%;
 	background-color: #FF9503;
 	border-radius: 7px;
+	height: 35px;
 }
 
 #page_foot {
