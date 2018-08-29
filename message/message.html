@@ -16,6 +16,10 @@
 	</head>
 
 	<body class="mui-ios mui-ios-11 mui-ios-11-0">
+
+		<!--tips:如果框框高度大 修改.mui-table-view-cell > a:not(.mui-btn)内margin-->
+		<!--用户头像大小不合适修改.mui-table-view .mui-media-object内height-->
+		<!--cell间分隔线长度在.mui-table-view-cell:after内 left修改-->
 		<ul class="mui-table-view">
 			<li class="mui-table-view-cell mui-media">
 				<a href="javascript:;">
@@ -23,7 +27,8 @@
 					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/头像1.png">
 					<!--用户名-->
 					<div class="mui-media-body" style="float:  left;">
-						冰淇淋
+						<div class="user_name">冰淇淋</div>
+						<div class="state" style="color: red;">交易已关闭</div>
 						<!--消息内容预览-->
 						<p class="mui-ellipsis">老板儿 来瓶冰阔落</p>
 						<p class="time">88:88</p>
@@ -37,12 +42,13 @@
 			<li class="mui-table-view-cell mui-media">
 				<a href="javascript:;">
 					<!--用户头像-->
-					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/头像1.png">
+					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/头像2.png">
 					<!--用户名-->
 					<div class="mui-media-body" style="float:  left;">
-						冰淇淋
+						<div class="user_name">巧克力</div>
+						<div class="state" style="color:#34B249;">交易成功</div>
 						<!--消息内容预览-->
-						<p class="mui-ellipsis">老板儿 来瓶冰阔落</p>
+						<p class="mui-ellipsis">[系统] 买家确认收货</p>
 						<p class="time">88:88</p>
 
 					</div>
@@ -51,13 +57,94 @@
 					</div>
 				</a>
 			</li>
+
 			<li class="mui-table-view-cell mui-media">
 				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/头像2.png">
-					<div class="mui-media-body">
-						测试
-						<p class="mui-ellipsis">内容预览内容预览内容预览内容预览内容预览</p>
+					<!--用户头像-->
+					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/头像3.png">
+					<!--用户名-->
+					<div class="mui-media-body" style="float:  left;">
+
+						<div class="user_name">薯片儿</div>
+						<div class="state" style="color: #34B249;">等待卖家发货</div>
+						<!--消息内容预览-->
+						<p class="mui-ellipsis">[系统]买家已付款</p>
+						<p class="time">88:88</p>
+
 					</div>
+					<div style="float: right;margin-right: -10%;">
+						<img src="http://img.linxixiangxin.top/xiaoxi/头像3.png" class="goods_img">
+					</div>
+				</a>
+			</li>
+
+<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<!--用户头像-->
+					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/宝贝动态.png">
+					<!--用户名-->
+					<div class="mui-media-body" style="float:  left;">
+
+						<div class="user_name">宝贝动态</div>
+						<!--消息内容预览-->
+						<p class="mui-ellipsis">您关注的宝贝降价3.0元</p>
+						<p class="time">2天前</p>
+
+					</div>
+
+				</a>
+			</li>
+
+<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<!--用户头像-->
+					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/互动消息.png">
+					<!--用户名-->
+					<div class="mui-media-body" style="float:  left;">
+
+						<div class="user_name">互动消息</div>
+						<!--消息内容预览-->
+						<p class="mui-ellipsis">小糖豆给您留言了</p>
+						<p class="time">2天前</p>
+
+					</div>
+
+				</a>
+			</li>
+
+
+<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<!--用户头像-->
+					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/我的关注.png">
+					<!--用户名-->
+					<div class="mui-media-body" style="float:  left;">
+
+						<div class="user_name">我的关注</div>
+						<!--消息内容预览-->
+						<p class="mui-ellipsis">小糖豆上新了一件宝贝</p>
+						<p class="time">2天前</p>
+
+					</div>
+
+				</a>
+			</li>
+			
+			
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<!--用户头像-->
+					<img class="mui-media-object mui-pull-left" src="http://img.linxixiangxin.top/xiaoxi/通知.png">
+					<!--用户名-->
+					<div class="mui-media-body" style="float:  left;">
+
+						<div class="user_name">通知</div>
+						<!--消息内容预览-->
+						<p class="mui-ellipsis">实名认证已通过</p>
+						<p class="time">2天前</p>
+
+					</div>
+
 				</a>
 			</li>
 
