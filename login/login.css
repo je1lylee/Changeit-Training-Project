@@ -5,8 +5,8 @@
 }
 
 #user_img {
-	width: 125px;
-	height: 125px;
+	width: 28%
+	height: 28%;
 }
 
 .backg {
@@ -47,7 +47,7 @@
 #button_login {
 	width: 100%;
 	background-color: #FF9503;
-	border-radius: 7px;
+	border-radius: 7px;	
 	height: 35px;
 }
 
