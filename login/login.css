@@ -63,14 +63,14 @@
 }
 
 #icon_line {
-	width: 46%;
+	width: 50%;
 	border: 1px solid #A8A4A5;
+	margin-left: 25%;
 }
 
 #shiyu {
 	margin-top: 30%;
-	margin-left: 25%;
-	width: 100%;
+text-align: center;
 }
 
 #qq_icon {
@@ -93,6 +93,24 @@
 
 #icon {
 	margin-top: 3%;
-	width: 46%;
-	text-align: center;
+}
+
+#img_id {
+	width: 15pt;
+	height: 15pt;
+}
+
+#input_id {
+	width: 91%;
+	height: 35px;
+}
+
+#img_psw {
+	width: 15pt;
+	height: 15pt;
+}
+
+#input_psw {
+	width: 91%;
+	height: 35px;
 }

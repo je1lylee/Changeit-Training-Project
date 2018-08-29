@@ -26,16 +26,17 @@
 			<p></p>
 			<form class="mui-input-group" action="" method="get">
 				<div id="id_zone">
-					<img src="http://img.linxixiangxin.top/zhuce/账号.png" style="width: 15pt;height: 15pt;" />
-					<input type="text" class="mui-input-clear" placeholder="账号/手机号/邮箱" style="width:92% ;height: 35px;" name="name">
+					<img src="http://img.linxixiangxin.top/zhuce/账号.png" id="img_id" />
+					<input type="text" class="mui-input-clear" placeholder="账号/手机号/邮箱"id="input_id" name="name">
 				</div>
 				<p>
 					<!--分离两个input-->
 					<hr color="#EFEFF4	" />
 				</p>
 				<div id="passwd_zone">
-					<img src="http://img.linxixiangxin.top/zhuce/锁.png" style="width: 15pt;height: 15pt;" />
-					<input class="mui-input-password" style="width: 92%; height: 35px;" placeholder="密码" type="password" name="password"/>
+					<!--下面style移动到css files后会丢失样式-->
+					<img src="http://img.linxixiangxin.top/zhuce/锁.png" id="img_psw"  style="width: 15pt;height: 15pt;" />
+					<input class="mui-input-password" id="input_psw" style="width: 92%; height: 35px;" placeholder="密码" type="password" name="password"/>
 				</div>
 				<!--分隔input和button /滑稽-->
 				<p></p>
@@ -44,7 +45,7 @@
 			    </div>
 			</form>
 			<p></p>
-			<div>
+			<div style="height: 20px;">
 		<p id="lost">找回密码</p>
 			</div>
 			
