@@ -2,10 +2,11 @@
 	margin: 0px auto;
 	margin-top: 60px;
 	margin-bottom: 60px;
+	text-align: center;
 }
 
 #user_img {
-	width: 28%
+	width: 28%;
 	height: 28%;
 }
 
