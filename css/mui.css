@@ -5,6 +5,43 @@
  */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*自己加的*/
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+ /* WebKit browsers */ 
+color: #A8A4A5; 
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+/* Mozilla Firefox 4 to 18 */ 
+color: #A8A4A5; 
+} 
+input::-moz-placeholder, textarea::-moz-placeholder { 
+ /* Mozilla Firefox 19+ */ 
+color: #A8A4A5; 
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+ /* Internet Explorer 10+ */ 
+color: #A8A4A5s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html
 {
     font-family: sans-serif;
@@ -2938,8 +2975,8 @@ select:focus
 
 .mui-input-group
 {
-    position: relative;
-
+/*    position: relative;
+*/
     padding: 0;
 
     border: 0;
