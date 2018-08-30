@@ -6,13 +6,15 @@
 #user_icon
 {
 height: 80px;
-margin-top: -20%;
+margin-top: -10%;
 margin-left: 15%;
 }
 #name
 {
-	font-size: 30px;	
+	font-size: 20px;	
 }
 #info{
-	font-size: 18px;
+	font-size: 16px;
+	margin-top: 4%;
+	color: #C5C1C1;
 }
