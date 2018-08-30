@@ -65,33 +65,34 @@
 
 #icon_line {
 	width: 50%;
-	border: 1px solid #A8A4A5;
 	margin-left: 25%;
+	font-size: 15px;
+	color: #A8A4A5;
 }
 
 #shiyu {
-	margin-top: 25%;
+	margin-top: 20%;
 	text-align: center;
 }
 
 #qq_icon {
 	height: 26px;
 	width: 26px;
-	margin: 5px;
+	margin: 10px;
 	opacity: 0.41;
 }
 
 #wechat_icon {
 	height: 25px;
 	width: 25px;
-	margin: 5px;
+	margin: 10px;
 	opacity: 0.41;
 }
 
 #alipay_icon {
 	height: 25px;
 	width: 25px;
-	margin: 5px;
+	margin: 10px;
 	opacity: 0.41;
 }
 
@@ -123,4 +124,9 @@
 	width: 80%;
 	height: 35px;
 	color: #000000;
+}
+#find_pwd
+{
+	font-size:14px;
+	margin-top: 5%;
 }
