@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>物品置换</name>
+	<name>换呗</name>
 	<comment>Create By HBuilder</comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1530577966958</id>
+			<id>0</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -40,7 +40,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1530859019049</id>
+			<id>0</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -49,7 +49,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1530859019052</id>
+			<id>0</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
