@@ -5,6 +5,14 @@
 
 #user_icon
 {
-height: 130px;
-width: 130px;
+height: 80px;
+margin-top: -20%;
+margin-left: 15%;
+}
+#name
+{
+	font-size: 30px;	
+}
+#info{
+	font-size: 18px;
 }
