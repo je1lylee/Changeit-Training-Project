@@ -2,7 +2,7 @@
 {
 right: 0px;
 top: 0px;
-background-color: #FCB553;
+background-image: url(http://img.linxixiangxin.top/顶栏.png);
 position: fixed;
 }
 #headbar_text
@@ -14,7 +14,7 @@ position: fixed;
 	top: 40%;
 }
 .nav {
-    background: whitesmoke;
+    background: #F6F6F6;
     padding: 10px 0 6px 0;
     width: 100%;
     position: fixed;
