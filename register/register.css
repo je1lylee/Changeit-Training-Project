@@ -76,14 +76,14 @@ body {
 }
 
 .id {
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color: #FF9503;
 	opacity: 0.30196078431372547;
 	width: 80%;
 }
 
 .psw {
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color: #FF9503;
 	opacity: 0.30196078431372547;
 }
