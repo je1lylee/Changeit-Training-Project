@@ -2318,7 +2318,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 }
 .mui-table-view-cell:last-child:before, .mui-table-view-cell:last-child:after
 {
-    height: 0;
+    height: 0px;
 }
 .mui-table-view-cell > a:not(.mui-btn)
 {

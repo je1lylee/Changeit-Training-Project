@@ -18,3 +18,27 @@ margin-left: 15%;
 	margin-top: 4%;
 	color: #C5C1C1;
 }
+.list_icon
+{
+	width: 10%;
+/*高度无效 不设置*/
+}
+
+.info_bar
+{
+	float: left;
+	display: block;
+	width: 33%;
+	height: 30px;
+	text-align: center;
+	padding-top: 10%;
+	
+}
+.fuck:before
+{
+	background-color: transparent;
+	width: 80%;
+	float: right;
+	height: 10px;
+	margin-left: 10%;
+}
