@@ -34,11 +34,11 @@ margin-left: 15%;
 	padding-top: 10%;
 	
 }
-.fuck:before
+.fuck:before :after
 {
 	background-color: transparent;
 	width: 80%;
 	float: right;
-	height: 10px;
+	height: 10px; 
 	margin-left: 10%;
 }
