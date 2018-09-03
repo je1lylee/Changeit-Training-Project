@@ -2140,7 +2140,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     background-color: #fff;
 }
 /*.mui-table-view:after
-{原来的
+{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -2160,9 +2160,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     right: 0;
     bottom: 0;
     left: 0;
-
-    height: 1px;
-
+    /*height: 1px;*/
     content: '';
     -webkit-transform: scaleY(.5);
             transform: scaleY(.5);
@@ -2173,21 +2171,6 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 ;
 }
 /*.mui-table-view:before
-{原来的
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-
-    height: 1px;
-
-    content: '';
-    -webkit-transform: scaleY(.5);
-            transform: scaleY(.5);
-GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-    background-color: #c8c7cc;
-}*/
-.mui-table-view:before
 {
     position: absolute;
     top: 0;
@@ -2199,7 +2182,18 @@ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
     content: '';
     -webkit-transform: scaleY(.5);
             transform: scaleY(.5);
-
+    background-color: #c8c7cc;
+}*/
+.mui-table-view:before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+            transform: scaleY(.5);
     background-color: #7B7B7B;
     width: 80%;
     margin-left: 10%;

@@ -31,14 +31,25 @@ margin-left: 15%;
 	width: 33%;
 	height: 30px;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 3%;
 	
 }
-.fuck:before :after
+
+.figure{
+	color: black;
+	font-size: 20px;
+}
+
+.tips
 {
-	background-color: transparent;
-	width: 80%;
-	float: right;
-	height: 10px; 
-	margin-left: 10%;
+color: #C5C5C1;
+font-size: 15px;
+margin-top: 5%;
+
+}
+.number_tips
+{
+	color: #C5C1C1;
+	margin-left: 59%;
+	margin-top: 4px;
 }
