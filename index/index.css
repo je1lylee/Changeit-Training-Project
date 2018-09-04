@@ -1,0 +1,35 @@
+.div_1
+{
+	
+}
+
+.div_2
+{
+	margin-top: 5%;
+	
+}
+
+.img_1
+{
+	z-index: -1;
+	width: 100%;
+}
+
+.img_2
+{
+	z-index: -1;
+	width: 100%;
+}
+
+.icon_1
+{
+	
+	
+	display: inline-block;
+}
+
+.icon_2
+{
+	display: inline-block;
+	padding-top: 5%;
+}
