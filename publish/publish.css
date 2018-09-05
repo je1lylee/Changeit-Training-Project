@@ -1,0 +1,26 @@
+/*self控制页边距*/
+.self
+{
+	margin-right: 5%;
+}
+
+.goods_name
+{
+	color: #A6A6A7;
+		margin-top: 8%;
+}
+
+.goods_describe
+{
+	margin-top: 4%;
+	margin-bottom: 10%;
+}
+.goods_img
+{
+	height: 130px;
+	width: 130px;
+}
+.positon
+{
+	margin-top: 5%;
+}

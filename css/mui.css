@@ -5,23 +5,24 @@
  */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
 /*自己加的*/
 /*改变palaceholder颜色*/
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
  /* WebKit browsers */ 
-color:#000000;
+color:#A6A6A7;
 } 
 input:-moz-placeholder, textarea:-moz-placeholder { 
 /* Mozilla Firefox 4 to 18 */ 
-color: #000000; 
+color: #A6A6A7; 
 } 
 input::-moz-placeholder, textarea::-moz-placeholder { 
  /* Mozilla Firefox 19+ */ 
-color: #000000; 
+color: #A6A6A7; 
 } 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
  /* Internet Explorer 10+ */ 
-color:#000000; 
+color:#A6A6A7; 
 }
 
 
@@ -32,7 +33,7 @@ color:#000000;
 
 
 
-
+/*原MUI-CSS内容*/
 html
 {
     font-family: sans-serif;
