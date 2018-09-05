@@ -1,26 +1,75 @@
 /*self控制页边距*/
-.self
-{
+
+.self {
 	margin-right: 5%;
 }
 
-.goods_name
-{
+.goods_name {
 	color: #A6A6A7;
-		margin-top: 8%;
+	margin-top: 8%;
 }
 
-.goods_describe
-{
+.goods_describe {
 	margin-top: 4%;
 	margin-bottom: 10%;
 }
-.goods_img
-{
+
+.goods_img {
 	height: 130px;
 	width: 130px;
 }
-.positon
-{
+
+.positon {
 	margin-top: 5%;
+}
+
+.positon_icon {
+	height: 25px;
+	margin-left: 5%;
+}
+
+.positon_data {
+	padding-top: 1%;
+	position: absolute;
+	margin-left: 5px;
+	font-size: 15px;
+	color: #868686;
+}
+.checkboxFour {
+	width: 40px;
+	height: 40px;
+	background: #ddd;
+	margin: 20px 90px;
+ 
+	border-radius: 100%;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour label {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+ 
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+ 
+	background: #333;
+ 
+	-webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour input[type=checkbox]:checked + label {
+	background: #26ca28;
 }
