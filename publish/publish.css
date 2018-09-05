@@ -35,41 +35,71 @@
 	font-size: 15px;
 	color: #868686;
 }
-.checkboxFour {
-	width: 40px;
-	height: 40px;
-	background: #ddd;
-	margin: 20px 90px;
- 
-	border-radius: 100%;
+
+.checkbox {
 	position: relative;
-	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
-	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
-}
-.checkboxFour label {
-	display: block;
-	width: 30px;
 	height: 30px;
-	border-radius: 100px;
- 
-	-webkit-transition: all .5s ease;
-	-moz-transition: all .5s ease;
-	-o-transition: all .5s ease;
-	-ms-transition: all .5s ease;
-	transition: all .5s ease;
-	cursor: pointer;
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	z-index: 1;
- 
-	background: #333;
- 
-	-webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
-	-moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
-	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	float: right;
+	width: 29%;
 }
-.checkboxFour input[type=checkbox]:checked + label {
-	background: #26ca28;
+
+.checkbox input[type='checkbox'] {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	opacity: 0;
+}
+
+.checkbox label {
+	position: absolute;
+	left: 30px;
+	top: 0;
+	height: 20px;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+.checkbox label:before {
+	content: '';
+	position: absolute;
+	left: -30px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+
+.checkbox label:after {
+	content: '';
+	position: absolute;
+	left: -22px;
+	top: 3px;
+	width: 6px;
+	height: 12px;
+	border: 0;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: #fff;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+}
+
+.checkbox input[type='checkbox']:checked+label:before {
+	background: #FFDD48;
+	border-color: #FFDD48;
+}
+
+.checkbox input[type='checkbox']:checked+label:after {
+	background: #FFDD48;
 }
