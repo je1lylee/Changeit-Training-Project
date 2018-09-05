@@ -103,3 +103,14 @@
 .checkbox input[type='checkbox']:checked+label:after {
 	background: #FFDD48;
 }
+.bg_camp
+{
+	width: 100%;
+	height: 10px;
+	background-color: #F1F5F8;
+}
+.nsubtn
+{
+	width: 85%;
+	height: 40px;
+}
