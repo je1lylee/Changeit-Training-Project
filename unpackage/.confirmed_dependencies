@@ -1,24 +1,37 @@
 {
-  "index.html": {
-    "refer": [
-      "login/login.html",
-      "register/register.html"
-    ]
-  },
-  "login/login.html": {
-    "refer": [
-      "index.html",
-      "login/login.html"
-    ],
-    "resources": [
-      "login/img/4Ï2.jpg",
-      "login/img/&÷.png"
-    ]
-  },
-  "register/register.html": {
-    "refer": [
-      "register/register.html",
-      "index.html"
-    ]
-  }
+	"index.html": {
+		"refer": [
+			"login/login.html",
+			"register/register.html",
+			"publish/publish.html",
+			"me/me.html",
+			"index/index.html"
+		]
+	},
+	"login/login.html": {
+		"refer": [
+			"index.html",
+			"login/login.html"
+		],
+		"resources": [
+			"login/img/4ï¿½2.jpg",
+			"login/img/\u0026ï¿½.png"
+		]
+	},
+	"register/register.html": {
+		"refer": [
+			"register/register.html",
+			"index.html"
+		]
+	},
+	"publish/publish.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"index/index.html": {
+		"refer": [
+			"index.html"
+		]
+	}
 }

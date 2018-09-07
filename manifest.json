@@ -132,7 +132,10 @@
 				"resources": [],
 				"refer": [
 					"login/login.html",
-					"register/register.html"
+					"register/register.html",
+					"publish/publish.html",
+					"me/me.html",
+					"index/index.html"
 				],
 				"priority": 0
 			},
@@ -151,6 +154,20 @@
 				"resources": [],
 				"refer": [
 					"register/register.html",
+					"index.html"
+				],
+				"priority": 0
+			},
+			"publish/publish.html": {
+				"resources": [],
+				"refer": [
+					"index.html"
+				],
+				"priority": 0
+			},
+			"index/index.html": {
+				"resources": [],
+				"refer": [
 					"index.html"
 				],
 				"priority": 0

@@ -11,6 +11,7 @@
 		<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			mui.init()
+			
 		</script>
 		<!--以上为script初始化-->
 
@@ -19,57 +20,89 @@
 	<body class="mui-content mui-ios mui-ios-11 mui-ios-11-0" style="background-color: white;">
 		<div class="mui-content" style="background-color: white;">
 			<div class="goods_name self">
-				<textarea name="" rows="1" cols="" style="border-style:solid;border-color:#FFFFFF " placeholder="标题 品类品牌型号. . ."></textarea>
+				<textarea name="topic" rows="1" cols="" style="border-style:solid;border-color:#FFFFFF;margin-bottom: 1px;" placeholder="标题 品类品牌型号. . ."></textarea>
 			</div>
 			<hr style="text-align: center;width: 90%;height: 0.5px;margin-top: 0px;">
-			<div class="goods_name self">
-				<textarea name="" rows="5" cols="" style="border-style:solid;border-color:#FFFFFF " placeholder="描述一下宝贝的转手原因/入手渠道/使用感受. . ."></textarea>
+			<div class="goods_name self" style="margin-top: 1px;">
+				<textarea name="content" rows="5" cols="" style="border-style:solid;border-color:#FFFFFF " placeholder="描述一下宝贝的转手原因/入手渠道/使用感受. . ."></textarea>
 			</div>
 			<!--图片位置预留%%后端对接-->
 			<div class="goods_img_div self" style="margin-left: 4%;">
-				<img class="goods_img" src="http://img.linxixiangxin.top/fabu/图片.png">
-				<img class="goods_img" src="http://img.linxixiangxin.top/fabu/照片.png">
+
+				<input type="file" name="file1" style="display: none;" class="file1">
+				<img class="goods_img" onclick="document.getElementsByClassName('file1')[0].click()" src="http://img.linxixiangxin.top/fabu/照片.png">
 			</div>
 
-<div>
-			<div class="positon self" style="float:  left; width:  60%;">
-				<img src="http://img.linxixiangxin.top/fabu/定位.png" class="positon_icon">
-				<span class="positon_data">安徽省 合肥市</span>
+			<div>
+				<div class="positon self" style="float:  left; width:  60%;">
+					<img src="http://img.linxixiangxin.top/fabu/定位.png" class="positon_icon"> 
+					<span class="positon_data">安徽省 合肥市</span>
+				</div>
+				<div class="checkbox" style="float:  right;margin-top: 6%;"> <input type="checkbox" id="checkbox1" name="checkboox[]"> <label for="checkbox1">宝贝全新</label> </div>
 			</div>
-			<div class="checkbox" style="float:  right;margin-top: 6%;"> <input type="checkbox" id="checkbox1" name="checkboox[]"> <label for="checkbox1">宝贝全新</label> </div>
 		</div>
-</div>
 		<div class="mui-content" style="background-color: white;">
-			<div style="height: 10px;background-color: #F1F5F8;margin-top: 14%;"></div>
-			<ul class="mui-table-view"> 
-        <li class="mui-table-view-cell mui-collapse">
-            <a class="mui-navigate-right" href="#">优先交换</a>
-            <div class="mui-collapse-content">
-                <p>换锤子</p>
-            </div>
-        </li>
-    </ul>
-    			<ul class="mui-table-view"> 
-        <li class="mui-table-view-cell mui-collapse">
-            <a class="mui-navigate-right" href="#">物品分类</a>
-            <div class="mui-collapse-content">
-                <p>分类：锤子</p>
-            </div>
-        </li>
-    </ul>
-    			<ul class="mui-table-view"> 
-        <li class="mui-table-view-cell mui-collapse">
-            <a class="mui-navigate-right" href="#">交易方式</a>
-            <div class="mui-collapse-content">
-                <p>顺丰到家 美滋滋</p>
-            </div>
-        </li>
-    </ul>
-    <div style="text-align: center;">
-    	<button type="button" class="mui-btn mui-btn-warning nsubtn"><div style="color: #000000;">确认发布</div></button>
-    </div>
+			<div style="background-color: #F1F5F8;margin-top: 15%;"></div>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-collapse">
+					<a class="mui-navigate-right" href="#">优先交换</a>
+					<div class="mui-collapse-content">
+						<p>换锤子</p>
+					</div>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-collapse">
+					<a class="mui-navigate-right" href="#">物品分类</a>
+					<div class="mui-collapse-content">
+						<p>分类：锤子</p>
+					</div>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-collapse">
+					<a class="mui-navigate-right" href="#">交易方式</a>
+					<div class="mui-collapse-content">
+						<p>顺丰到家 美滋滋</p>
+					</div>
+				</li>
+			</ul>
+			<div style="text-align: center;">
+				<button type="button" class="mui-btn mui-btn-warning nsubtn"><div style="color: #000000;">确认发布</div></button>
+			</div>
 
 		</div>
 	</body>
+	<script>
+		var oFileReader = new FileReader(); // 创建一个FileReader对象
+			var rFilter = /^(?:image\/bmp|image\/cis\-cod|image\/gif|image\/ief|image\/jpeg|image\/jpeg|image\/jpeg|image\/pipeg|image\/png|image\/svg\+xml|image\/tiff|image\/x\-cmu\-raster|image\/x\-cmx|image\/x\-icon|image\/x\-portable\-anymap|image\/x\-portable\-bitmap|image\/x\-portable\-graymap|image\/x\-portable\-pixmap|image\/x\-rgb|image\/x\-xbitmap|image\/x\-xpixmap|image\/x\-xwindowdump)$/i; // 验证图片的正则
+			var oPreview = document.getElementsByClassName('goods_img')[0]; // 预览图
+			var oUpload = document.getElementsByClassName('file1')[0]; // 图片上传
+
+			oFileReader.onload = function(event) {
+				oPreview.src = event.target.result; // 替换预览图的src
+			}
+
+			oUpload.onchange = function loadImgFile() {
+				var oFile = oUpload.files[0];
+
+				if(!rFilter.test(oFile.type)) {
+					alert('必须上传图片文件！');
+				}
+
+				if(window.FileReader) {
+					/*
+					读取指定的Blob对象或File对象中的内容。
+					当读取操作完成时，会自动尝试去调用onloadend事件。
+					同时，result属性将包含一个data:URL表示读取的文件的内容。
+					 */
+					oFileReader.readAsDataURL(oFile);
+				} else if(navigator.appName === 'Microsoft Internet Explorer') { // IE浏览器
+					// IE10以下版本不支持FileReader()构造函数，利用滤镜兼容旧版本的IE
+					oPreview.style.filter = 'progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)';
+					oPreview.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = oUpload.value;
+				}
+			}
+	</script>
 
 </html>

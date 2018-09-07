@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+	<!--#FBFCFC 背景色-->
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<link rel="stylesheet" type="text/css" href="../css/mui.css" />
+		<link rel="stylesheet" type="text/css" href="userinfo.css" />
+		<link href="../css/mui.picker.css" rel="stylesheet" />
+		<link href="../css/mui.poppicker.css" rel="stylesheet" />
+		<script src="../js/mui.js " type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<!--以上为script初始化.-->
+	</head>
+
+	<body style="background-color: transparent;" class="mui-ios mui-ios-11 mui-ios-11-0">
+		<div class="mui-content">
+			<div class="back_bar">图片</div>
+			<ul class="mui-table-view " "=" ">
+						<li class="mui-table-view-cell " style=" ">
+							<a class="mui-navigate-right " style="display: flex; ">
+								<span style="margin-top: 5px; ">头像</span>
+							</a>
+						</li>
+						<li class="mui-table-view-cell " style=" ">
+							<a class="mui-navigate-right " style="display: flex; ">
+								<span style="margin-top: 5px; ">背景墙</span>
+							</a>
+			</ul>
+				<div class="back_bar ">基本资料</div>
+						
+						<div class="mui-input-group ">
+    <div class="mui-input-row ">
+        <label>昵称</label>
+        <input type="text " class="mui-input-clear " placeholder="请输入昵称 " value="小黑豆 ">
+    </div>
+     <div class="mui-input-row ">
+        <label>sex</label>
+        <input type="text " class="mui-input-clear " id="sexpicker" placeholder="请选择性别">
+    </div>
+    </div>
+						
+						
+						
+										<div class="back_bar ">喜欢</div>
+						
+
+				<div id='userResult' class="ui-alert" style="height: 0px;font-size: 0px;"></div>
+		
+		</div>	
+		
+		<script src="../js/mui.min.js "></script>
+		<script src="../js/mui.picker.js "></script>
+		<script src="../js/mui.poppicker.js "></script>
+		<script src="../js/city.data.js " type="text/javascript " charset="utf-8 "></script>
+		<script src="../js/city.data-3.js " type="text/javascript " charset="utf-8 "></script>
+		<script>
+			(function($, doc) {
+				$.init();
+				$.ready(function() {
+					/**
+					 * 获取对象属性的值
+					 * 主要用于过滤三级联动中，可能出现的最低级的数据不存在的情况，实际开发中需要注意这一点；
+					 * @param {Object} obj 对象
+					 * @param {String} param 属性名
+					 */
+					var _getParam = function(obj, param) {
+						return obj[param] || '';
+					};
+					//普通示例
+					var userPicker = new $.PopPicker();
+					userPicker.setData([{
+						value: 'male',
+						text: '男'
+					}, {
+						value: 'female',
+						text: '女'
+					}, {
+						value: 'secret',
+						text: '保密'
+					}]);
+					var showUserPickerButton = doc.getElementById('sexpicker');
+					var userResult = doc.getElementById('userResult');
+					showUserPickerButton.addEventListener('tap', function(event) {
+						userPicker.show(function(items) {
+							userResult.innerText = JSON.stringify(items[0]);
+							document.getElementById("sexpicker").value = items[0].text;
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+						});
+					}, false);
+					//-----------------------------------------
+					//级联示例
+					var cityPicker = new $.PopPicker({
+						layer: 2
+					});
+					cityPicker.setData(cityData);
+					var showCityPickerButton = doc.getElementById('showCityPicker');
+					var cityResult = doc.getElementById('cityResult');
+					showCityPickerButton.addEventListener('tap', function(event) {
+						cityPicker.show(function(items) {
+							cityResult.innerText = "你选择的城市是: " + items[0].text + " " + items[1].text;
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+						});
+					}, false);
+					//-----------------------------------------
+					//					//级联示例
+					var cityPicker3 = new $.PopPicker({
+						layer: 3
+					});
+					cityPicker3.setData(cityData3);
+					var showCityPickerButton = doc.getElementById('showCityPicker3');
+					var cityResult3 = doc.getElementById('cityResult3');
+					showCityPickerButton.addEventListener('tap', function(event) {
+						cityPicker3.show(function(items) {
+							cityResult3.innerText = "你选择的城市是: " + _getParam(items[0], 'text') + " " + _getParam(items[1], 'text') + " " + _getParam(items[2], 'text');
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+						});
+					}, false);
+				});
+			})(mui, document);
+		</script>
+	</body>
+
+</html>

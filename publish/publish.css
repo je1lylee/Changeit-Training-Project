@@ -6,7 +6,7 @@
 
 .goods_name {
 	color: #A6A6A7;
-	margin-top: 8%;
+	margin-top: 5%;
 }
 
 .goods_describe {
@@ -15,8 +15,8 @@
 }
 
 .goods_img {
-	height: 130px;
-	width: 130px;
+
+	width: 30%;
 }
 
 .positon {
