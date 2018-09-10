@@ -6,11 +6,15 @@
 		<meta charset="UTF-8" />
 		<title>Document</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-
 		<link rel="stylesheet" type="text/css" href="../css/mui.css" />
 		<link rel="stylesheet" type="text/css" href="userinfo.css" />
 		<link href="../css/mui.picker.css" rel="stylesheet" />
 		<link href="../css/mui.poppicker.css" rel="stylesheet" />
+		<script src="../js/mui.min.js "></script>
+		<script src="../js/mui.picker.js "></script>
+		<script src="../js/mui.poppicker.js "></script>
+		<script src="../js/city.data.js " type="text/javascript " charset="utf-8 "></script>
+		<script src="../js/city.data-3.js " type="text/javascript " charset="utf-8 "></script>
 		<script src="../js/mui.js " type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			mui.init()
@@ -35,30 +39,58 @@
 				<div class="back_bar ">基本资料</div>
 						
 						<div class="mui-input-group ">
+                <div class="mui-input-row ">
+    	
+                  <label style="width: 27%; ">昵  称</label>
+            <input type="text " class="mui-input-clear " placeholder="请输入昵称 " value="小黑豆 " style="width: 73%;margin-top: 2%; ">
+               </div>
+                   <div class="mui-input-row ">
+                       <label style="width: 27%; ">性  别</label>
+                         <input type="text " class="mui-input-clear "  id="sexpicker " placeholder="点我点我 " style="width: 73%;margin-top: 2%; ">
+                       </div>
+                  <div class="mui-input-row ">
+                      <label style="width: 27%; ">生  日</label>
+                   <input type="text " class="mui-input-clear "  id="datepicker " placeholder="输入 " style="width: 73%;margin-top: 2%; ">
+                  </div>
+                     <div class="mui-input-row ">
+                	<!--简介改为个性签名-->
+                          <label style="width: 27%; ">个性签名</label>
+                         <input type="text " class="mui-input-clear "  placeholder="输入 " style="width: 73%;margin-top: 2%; ">
+                      </div>
+                      <div class="mui-input-row ">
+                                    	<!--简介改为个性签名-->
+        <label style="width: 27%; ">收货地址</label>
+        <input type="text " class="mui-input-clear "  placeholder="输入 " style="width: 73%;margin-top: 2%; ">
+    </div>
     <div class="mui-input-row ">
-        <label>昵称</label>
-        <input type="text " class="mui-input-clear " placeholder="请输入昵称 " value="小黑豆 ">
+        <label style="width: 27%; ">职  业</label>
+        <input type="text " class="mui-input-clear "  placeholder="输入 " style="width: 73%;margin-top: 2%; ">
     </div>
      <div class="mui-input-row ">
-        <label>sex</label>
-        <input type="text " class="mui-input-clear " id="sexpicker" placeholder="请选择性别">
-    </div>
-    </div>
-						
-						
-						
-										<div class="back_bar ">喜欢</div>
-						
+        <label style="width: 27%; ">院校名称</label>
+        <input type="text " class="mui-input-clear "  placeholder="输入 " style="width: 73%;margin-top: 2%; ">
+    </div>  
 
-				<div id='userResult' class="ui-alert" style="height: 0px;font-size: 0px;"></div>
 		
-		</div>	
-		
-		<script src="../js/mui.min.js "></script>
-		<script src="../js/mui.picker.js "></script>
-		<script src="../js/mui.poppicker.js "></script>
-		<script src="../js/city.data.js " type="text/javascript " charset="utf-8 "></script>
-		<script src="../js/city.data-3.js " type="text/javascript " charset="utf-8 "></script>
+
+				<div id='userResult' class="ui-alert " style="height: 0px;font-size: 0px; "></div>
+				<!--内容处理容器勿删-->
+</div>			
+<div class="back_bar ">喜欢</div>
+<div style="background-color: white;">
+		<img src="http://img.linxixiangxin.top/bianjiziliao/个人资料-音乐.png" class="user_tagy" />
+	<img src="http://img.linxixiangxin.top/bianjiziliao/编辑资料-删除.png" class="user_tag" />
+</div>
+<div style="background-color: white;">
+<div style="border-bottom: #7B7B7B 1px solid;margin-top: 2px;">
+</div>
+<div style="text-align: center;">
+				<button type="button" class="mui-btn mui-btn-warning nsubtn"><div style="color: #000000;">保存</div></button>
+			</div>
+</div>
+
+
+	</body>
 		<script>
 			(function($, doc) {
 				$.init();
@@ -89,7 +121,7 @@
 					showUserPickerButton.addEventListener('tap', function(event) {
 						userPicker.show(function(items) {
 							userResult.innerText = JSON.stringify(items[0]);
-							document.getElementById("sexpicker").value = items[0].text;
+							document.getElementById("sexpicker ").value = items[0].text;
 							//返回 false 可以阻止选择框的关闭
 							//return false;
 						});
@@ -97,7 +129,7 @@
 					//-----------------------------------------
 					//级联示例
 					var cityPicker = new $.PopPicker({
-						layer: 2
+						layer: 2	
 					});
 					cityPicker.setData(cityData);
 					var showCityPickerButton = doc.getElementById('showCityPicker');
@@ -127,6 +159,5 @@
 				});
 			})(mui, document);
 		</script>
-	</body>
 
 </html>

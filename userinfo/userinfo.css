@@ -2,3 +2,21 @@
 {
 	font-size: 15px;
 }
+.user_tag
+{
+	
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 15%;
+}
+.user_tagy
+{
+		margin-left: 2%;
+}
+.nsubtn
+{
+	width: 85%;
+	height: 40px;
+	background-image:url(http://img.linxixiangxin.top/顶栏.png);
+	margin-top: 15px;
+}
