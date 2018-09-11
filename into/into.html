@@ -6,21 +6,18 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="into.css" />
 		<link rel="stylesheet" type="text/css" href="../css/mui.css" />
-		<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-			mui.init()
-		</script>
+		<script src="../js/mui.js"></script>
 		<!--以上为script初始化-->
 	</head>
 
 <body style="background-color: #FCFCFC;" class="mui-ios mui-ios-11 mui-ios-11-0">
 	
-			<header class="mui-bar mui-bar-nav mui-bar-nav-bg"id="headbar">
+			<header class="mui-bar mui-bar-nav mui-bar-nav-bg" id="headbar" style="height:50px;">
 <span class="mui-icon mui-icon-back" style="color: #2A2929;"></span>
-<div style="width: 80%;height: 80px;margin-left: 10%;">
-	<input type="text" style="width: 35%;margin-left: 7%;margin-top: 6%;" />
-	<input type="text" style="width: 35%;" />
-	<input type="button" style="width: 13%;margin-top:7%;"/>
+<div style="width: 110%;/* height: 73px; */margin-left: 5%;margin-top: -19%;">
+	<input type="text" style="width: 35%;margin-left: 7%;margin-top: 6%;">
+	<input type="text" style="width: 35%;margin-left: -5px;">
+	<span class="mui-icon mui-icon-search" style="margin-top:7%;right: -4px;"></span>
 	
 	
 </div>
@@ -28,18 +25,162 @@
 
 </header>
 			<div class="mui-content" style="background-color: #FCFCFC;">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+				<!--图片轮播@开始-->
+			<div class="mui-slider" style="margin-top: 20px;height: 150px;">
+  <div class="mui-slider-group mui-slider-loop">
+    <!--支持循环，需要重复图片节点-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="#" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="http://img.linxixiangxin.top/发布成功对号.png" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="http://img.linxixiangxin.top/发布成功对号.png" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="http://img.linxixiangxin.top/发布成功对号.png" /></a></div>
+    <div class="mui-slider-item"><a href="#"><img src="http://img.linxixiangxin.top/发布成功对号.png" /></a></div>
+    <!--等待赞助爸爸的广告图-->
+    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="#" /></a></div>
+  </div>
+</div>		
+<!--图片轮播@结束-->
+<!--类别导航@开始-->
+			<div style="width: 100%;margin-top: 10px;">
+				<div style="width: 20%; float: left; text-align: center;">
+					<img src="http://img.linxixiangxin.top/huanru/图1.png"  style="height: 65px;"/>
+					<span class="tips">手机数码</span>
+				</div>
+				<div style="width: 20%; float: left; text-align: center;">
+					<img src="http://img.linxixiangxin.top/huanru/图2.png" style="height: 65px;"/>
+					<span class="tips">服饰鞋包</span>
+				</div>
+				<div style="width: 20%; float: left; text-align: center;">
+					<img src="http://img.linxixiangxin.top/huanru/图3.png" style="height: 65px;"/>
+					<span class="tips">家具家电</span>
+				</div>
+				<div style="width: 20%; float: left; text-align: center;">
+					<img src="http://img.linxixiangxin.top/huanru/图4.png" style="height: 65px;"/>
+					<span class="tips">母婴玩具</span>
+				</div>
+				<div style="width: 20%; float: left; text-align: center;">
+					<img src="http://img.linxixiangxin.top/huanru/图5.png" style="height: 65px;"/>
+					<span class="tips">全部分类</span>
+				</div>
+				
+				
+				
+			</div>
+			<!--类别导航@结束-->
+			<!--宝贝概览@开始-->
+				<div id="slider" class="mui-slider">
+				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item" href="#item1mobile">
+				待办公文
+			</a>
+					<a class="mui-control-item" href="#item2mobile">
+				已办公文
+			</a>
+					<a class="mui-control-item" href="#item3mobile">
+				全部公文
+			</a>
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-1
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-2
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-3
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-4
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-5
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-6
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-7
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-8
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-9
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-10
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-11
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-12
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-13
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-14
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-15
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-16
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-17
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-18
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-19
+									</li>
+									<li class="mui-table-view-cell">
+										第一个选项卡子项-20
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-loading">
+									<div class="mui-spinner">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div id="item3mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll3" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-loading">
+									<div class="mui-spinner">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+				
+				
+				
+				asdasdasasd
+				
+				
+			<!--宝贝概览@结束-->
 			
 			
 			
@@ -81,5 +222,43 @@
 			
 			
 		</div>
-	</body>
+	<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+				var html2 = '<ul class="mui-table-view"><li class="mui-table-view-cell">第二个选项卡子项-1</li><li class="mui-table-view-cell">第二个选项卡子项-2</li><li class="mui-table-view-cell">第二个选项卡子项-3</li><li class="mui-table-view-cell">第二个选项卡子项-4</li><li class="mui-table-view-cell">第二个选项卡子项-5</li></ul>';
+				var html3 = '<ul class="mui-table-view"><li class="mui-table-view-cell">第三个选项卡子项-1</li><li class="mui-table-view-cell">第三个选项卡子项-2</li><li class="mui-table-view-cell">第三个选项卡子项-3</li><li class="mui-table-view-cell">第三个选项卡子项-4</li><li class="mui-table-view-cell">第三个选项卡子项-5</li></ul>';
+				var item2 = document.getElementById('item2mobile');
+				var item3 = document.getElementById('item3mobile');
+				document.getElementById('slider').addEventListener('slide', function(e) {
+					if (e.detail.slideNumber === 1) {
+						if (item2.querySelector('.mui-loading')) {
+							setTimeout(function() {
+								item2.querySelector('.mui-scroll').innerHTML = html2;
+							}, 500);
+						}
+					} else if (e.detail.slideNumber === 2) {
+						if (item3.querySelector('.mui-loading')) {
+							setTimeout(function() {
+								item3.querySelector('.mui-scroll').innerHTML = html3;
+							}, 500);
+						}
+					}
+				});
+				var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+				$('.mui-input-group').on('change', 'input', function() {
+					if (this.checked) {
+						sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+						//force repaint
+						sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+					}
+				});
+			})(mui);
+		</script>
+
+</body>
 </html>

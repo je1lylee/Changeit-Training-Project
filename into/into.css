@@ -5,3 +5,14 @@ top: 0px;
 background-image: url(http://img.linxixiangxin.top/顶栏.png);
 position: fixed;
 }
+.img_icon
+{
+	width: 15%;
+	float: left;
+    margin-left:4%;
+    margin-top: 10px;
+}
+.tips
+{
+	font-size: 15px;
+}
