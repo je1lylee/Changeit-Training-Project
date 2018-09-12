@@ -16,3 +16,9 @@ position: fixed;
 {
 	font-size: 15px;
 }
+		.mui-control-content {
+				background-color: white;
+				min-height: 215px;
+			}
+			.mui-control-content .mui-loading {
+				margin-top: 50px;
