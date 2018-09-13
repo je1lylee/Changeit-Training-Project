@@ -1,24 +1,65 @@
-#headbar
-{
-right: 0px;
-top: 0px;
-background-image: url(http://img.linxixiangxin.top/顶栏.png);
-position: fixed;
+	#headbar {
+	right: 0px;
+	top: 0px;
+	background-image: url(http://img.linxixiangxin.top/顶栏.png);
+	position: fixed;
 }
-.img_icon
-{
+
+.img_icon {
 	width: 15%;
 	float: left;
-    margin-left:4%;
-    margin-top: 10px;
+	margin-left: 4%;
+	margin-top: 10px;
 }
-.tips
-{
+
+.tips {
 	font-size: 15px;
 }
-		.mui-control-content {
-				background-color: white;
-				min-height: 215px;
-			}
-			.mui-control-content .mui-loading {
-				margin-top: 50px;
+
+.mui-control-content {
+	background-color: white;
+	min-height: 215px;
+}
+
+.mui-control-content .mui-loading {
+	margin-top: 50px;
+}
+#head_icon
+{
+	width: 20%;
+}
+#user
+{
+position: absolute;
+top: 20px;
+left: 26%;	
+margin-right:23px;
+}
+#check_icon
+{
+	width: 15px;
+}
+#like
+{
+	position: absolute;
+width: 9%;
+left: 94%;
+top: 3%;
+}
+#all_new
+{
+	width: 35px;
+}
+.shit
+{
+	height:370px;
+}
+#view
+{
+	width: 20px;
+}
+#view1
+{
+width: 20px;
+height: 20px;
+}

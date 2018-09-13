@@ -3600,13 +3600,14 @@ select:focus
 }
 .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active
 {
-    color: #007aff;
+	font-weight: bold;
+    color: black;
     border-bottom: 2px solid #007aff;
     background: none;
 }
 .mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar
 {
-    background-color: #007aff;
+    background-color: #fdca83;
 }
 
 .mui-segmented-control-positive
@@ -4518,6 +4519,18 @@ body > .mui-progressbar
 
     width: 100%;
 }
+
+.mui-sliderrr
+{
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+
+
 .mui-slider .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active
 {
     border-bottom: 0;
